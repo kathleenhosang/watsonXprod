@@ -12,7 +12,7 @@ Requirement | Details | Documentation |
 Model Selection | List models that the client requires, this determines sizing | [Adding Foundational Models to WatsonX](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.8.x?topic=setup-adding-foundation-models) |
 Storage Selection | *ODF, Fusion, Px, AWS <br /> *NFS not recommended because snapshots are not supported for BRDR <br /> *Azure native storage not supported by foundational services WA/ WD supports ODF, IBM storage, or Px | [Storage Architecture](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.8.x?topic=architecture-storage) <br /> [Storage Requirements](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.8.x?topic=requirements-storage) |
 Sizing | *Assume HA is required <br /> *Multi pod per service should be selected in sales configurator | [Sales Configurator](https://app.ibmsalesconfigurator.com/#/)
-GPU | *GPU SKU selection <br /> *Attaching GPU nodes to cluster for optimal performance and cost | Find Docs!
+GPU | *GPU SKU selection <br /> *Attaching GPU nodes to cluster for optimal performance and cost | [Adding GPU to Cluster](https://www.ibm.com/docs/en/mas-cd/continuous-delivery?topic=inspection-enabling-gpu-passthrough)
 Client Internal Reviews | Understand client’s internal review process to put WatsonX in production (any additional security reviews, architectural reviews, business process reviews, etc)
 Installation Approach | * OpenShift (IPI v UPI, platform, storage, networking requirements, security requirements, etc) <br /> *Cloud Pak <br /> *WatsonX |
 Day 2 Operations | *Logging and Monitoring <br /> *LDAP <br /> *Certificate Management |
