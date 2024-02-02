@@ -17,6 +17,7 @@ Client Internal Reviews | Understand client’s internal review process to put W
 Installation Approach | * OpenShift (IPI v UPI, platform, storage, networking requirements, security requirements, etc) <br /> *Cloud Pak <br /> *WatsonX |
 Day 2 Operations | *Logging and Monitoring <br /> *LDAP <br /> *Certificate Management |
 BR/ DR | *Data replication <br /> *Data recovery <br /> *Back up and restore <br /> *Understand services limitations <br /> *If this is a requirement, cpd OADP based BRDR tooling should be used as a best practice, with IBM Fusion or ODF |
+Security | *Security Scans <br /> *Data Isolation <br /> *Application Security | |
 
 ## WatsonX.data Checklist
 Requirement | Details | Documentation |
