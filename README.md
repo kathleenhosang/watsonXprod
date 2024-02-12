@@ -3,7 +3,8 @@ WatsonX On Premise Production Checklist
 
 ## Architecture Overview
 
-<img width="785" alt="Screenshot 2023-05-25 at 2 28 47 PM" src="https://github.com/kathleenhosang/sno/assets/40863347/ff048dc6-41bc-466c-8271-472409d54bcf">
+<img width="1003" alt="Screenshot 2024-02-12 at 9 24 23 AM" src="https://github.com/kathleenhosang/watsonXprod/assets/40863347/592ed3ab-035c-46d7-9e7a-16d5b528de5e">
+
 
 ## WatsonX Checklist
 Requirement | Details | Documentation |
