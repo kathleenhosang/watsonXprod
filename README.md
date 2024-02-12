@@ -12,10 +12,10 @@ Requirement | Details | Documentation |
 Storage Selection | *ODF, Fusion, Px, AWS <br /> *NFS not recommended because snapshots are not supported for BRDR <br /> *Azure native storage not supported by foundational services WA/ WD supports ODF, IBM storage, or Px | [Storage Architecture](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.8.x?topic=architecture-storage) <br /> [Storage Requirements](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.8.x?topic=requirements-storage) |
 Sizing | *Assume HA is required <br /> *Multi pod per service should be selected in sales configurator | [Sales Configurator](https://app.ibmsalesconfigurator.com/#/)
 Client Internal Reviews | Understand client’s internal review process to put WatsonX in production (any additional security reviews, architectural reviews, business process reviews, etc)
-Installation Approach | * OpenShift (IPI v UPI, platform, storage, networking requirements, security requirements, etc) <br /> *Cloud Pak <br /> *WatsonX |
-Day 2 Operations | *Logging and Monitoring <br /> *LDAP <br /> *Certificate Management |
-BR/ DR | *Data replication <br /> *Data recovery <br /> *Back up and restore <br /> *Understand services limitations <br /> *If this is a requirement, cpd OADP based BRDR tooling should be used as a best practice, with IBM Fusion or ODF |
-Security | *Security Scans <br /> *Data Isolation <br /> *Application Security | |
+Installation Approach | * OpenShift (IPI v UPI, platform, storage, networking requirements, security requirements, etc) <br /> *Cloud Pak <br /> *WatsonX | [OpenShift Documentation](https://docs.openshift.com/container-platform/4.14/installing/index.html) |
+Day 2 Operations | *Logging and Monitoring <br /> *LDAP <br /> *Certificate Management | [Day 2 Ops for WatsonX Platform](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.8.x?topic=administering-ongoing-maintenance-day-2) |
+BR/ DR | *Data replication <br /> *Data recovery <br /> *Back up and restore <br /> *Understand services limitations <br /> *If this is a requirement, cpd OADP based BRDR tooling should be used as a best practice, with IBM Fusion or ODF | [Back Up and Restore for WatsonX Platform](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.8.x?topic=administering-backing-up-restoring-cloud-pak-data)
+Security | *Security Scans <br /> *Data Isolation <br /> *Application Security |  |
 
 ## WatsonX.ai Checklist
 Requirement | Details | Documentation |
